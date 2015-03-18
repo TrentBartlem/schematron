@@ -117,7 +117,7 @@ public final class ValidatorFactory {
 
 	// This use java built-in XSLT processor
 	// private TransformerFactory _factory = TransformerFactory.newInstance();
-	private TransformerFactory _factory = TransformerFactoryImpl.newInstance();
+	private TransformerFactory _factory = new TransformerFactoryImpl();
 
 	/**
 	 * The entity resolver
